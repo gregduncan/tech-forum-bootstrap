@@ -9,86 +9,6 @@ const App = () => {
     <div className="container" style={{ paddingTop: 30, paddingBottom: 60 }}>
       <h1>Bootstrap v5 MDS Demo</h1>
 
-      {/* Accordion */}
-      <h2>Accordion</h2>
-      <div className="accordion" id="accordionExample">
-        <div className="accordion-item">
-          <h2 className="accordion-header" id="headingOne">
-            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Accordion Item #1
-            </button>
-          </h2>
-          <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div className="accordion-body">This is the content for Accordion Item #1.</div>
-          </div>
-        </div>
-        <div className="accordion-item">
-          <h2 className="accordion-header" id="headingTwo">
-            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Accordion Item #2
-            </button>
-          </h2>
-          <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-            <div className="accordion-body">This is the content for Accordion Item #2.</div>
-          </div>
-        </div>
-        <div className="accordion-item">
-          <h2 className="accordion-header" id="headingThree">
-            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Accordion Item #3
-            </button>
-          </h2>
-          <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-            <div className="accordion-body">This is the content for Accordion Item #3.</div>
-          </div>
-        </div>
-      </div>
-
-      {/* Alerts */}
-      <h2>Alerts</h2>
-
-      <div className="alert alert-primary" role="alert">
-        A simple primary alert.
-      </div>
-
-      <div className="alert alert-secondary" role="alert">
-        A simple secondary alert.
-      </div>
-
-      <div className="alert alert-success" role="alert">
-        A simple success alert.
-      </div>
-
-      <div className="alert alert-danger" role="alert">
-        A simple danger alert.
-      </div>
-
-      <div className="alert alert-warning" role="alert">
-        A simple warning alert.
-      </div>
-
-      <div className="alert alert-info" role="alert">
-        A simple info alert.
-      </div>
-
-      <div className="alert alert-light" role="alert">
-        A simple light alert.
-      </div>
-
-      <div className="alert alert-dark" role="alert">
-        A simple dark alert.
-      </div>
-
-      <div className="alert alert-dismissible fade show" role="alert">
-        An alert with a close button.
-        <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-      </div>
-
-      <div className="alert alert-primary alert-dismissible fade show" role="alert">
-        An auto-closing alert
-        <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-      </div>
-
       {/* Buttons */}
       <h2>Buttons</h2>
 
@@ -184,6 +104,86 @@ const App = () => {
       <a href="#" className="btn btn-primary me-2">
         Primary Link
       </a>
+      
+      {/* Accordion */}
+      <h2>Accordion</h2>
+      <div className="accordion" id="accordionExample">
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingOne">
+            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div className="accordion-body">This is the content for Accordion Item #1.</div>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingTwo">
+            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div className="accordion-body">This is the content for Accordion Item #2.</div>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingThree">
+            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div className="accordion-body">This is the content for Accordion Item #3.</div>
+          </div>
+        </div>
+      </div>
+
+      {/* Alerts */}
+      <h2>Alerts</h2>
+
+      <div className="alert alert-primary" role="alert">
+        A simple primary alert.
+      </div>
+
+      <div className="alert alert-secondary" role="alert">
+        A simple secondary alert.
+      </div>
+
+      <div className="alert alert-success" role="alert">
+        A simple success alert.
+      </div>
+
+      <div className="alert alert-danger" role="alert">
+        A simple danger alert.
+      </div>
+
+      <div className="alert alert-warning" role="alert">
+        A simple warning alert.
+      </div>
+
+      <div className="alert alert-info" role="alert">
+        A simple info alert.
+      </div>
+
+      <div className="alert alert-light" role="alert">
+        A simple light alert.
+      </div>
+
+      <div className="alert alert-dark" role="alert">
+        A simple dark alert.
+      </div>
+
+      <div className="alert alert-dismissible fade show" role="alert">
+        An alert with a close button.
+        <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+
+      <div className="alert alert-primary alert-dismissible fade show" role="alert">
+        An auto-closing alert
+        <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
 
       {/* Badges */}
       <h2>Badges</h2>

@@ -1,3 +1,7 @@
 h2:not(.accordion-header), h3:not(.accordion-header) {
     margin: 50px 0 20px 0;
 }
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('./fonts/IBMPlexSans-Regular.woff2');
+  }
